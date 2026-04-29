@@ -31,6 +31,18 @@ Proje başlangıçta **ATmega** tabanlıydı; ancak hem performansını artırma
 * **EMI ve Gürültü Yönetimi:** Güç hatları üzerine yerleştirilen decoupling kapasitörleri ile dijital gürültü minimize edildi, analog ses sensörünün daha kararlı çalışması sağlandı.
 * **Hatasız Tasarım:** Endüstriyel standartlarda, **0 DRC Error** ve **0 Unconnected Items** ile üretime hazır hale getirildi.
 
+ ---
+
+# 🛠 Donanım Güncellemesi: V1.1 - Güç Optimizasyonu
+
+Sistem kararlılığını ve motor performansını artırmak için yapılan iyileştirmeler:
+
+* **Yol Kalınlaştırma (Power Tracks):** Motoru besleyen ana hatlar ve motor çıkış yolları **40 mil (~1.0 mm)** genişliğine çıkarıldı. Bu sayede motorun çektiği anlık akım, kartta ısınmaya veya voltaj düşümüne sebep olmadan güvenle iletilebiliyor.
+* **Güç Otobanı:** Barrel Jack girişinden başlayarak Diyot, Kapasitörler ve Motor Sürücüye (DRV8833) giden hat "Güç Otobanı" mantığıyla optimize edildi. Bu güncelleme, motor zorlandığında bile ESP32'nin stabil çalışmasını (brown-out önleme) sağlar.
+* **GND Plane:** Toprak hattı kesintisiz bakır döküm (GND Plane) olarak tasarlanarak hem parazitler engellendi hem de termal yönetim iyileştirildi.
+
+---
+
 ## 📂 Dosya Yapısı
 * `/Hardware`: KiCad şematik ve PCB layout dosyaları.
 * `/Production`: Üretime hazır Gerber ve Drill dosyaları (PawsLink_Final_v1.zip).
