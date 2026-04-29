@@ -5,9 +5,9 @@ Selam! Bu proje, evin asıl sahibi olan kedimin balkon kapısında mahsur kalma 
 ## 📸 Proje Görselleri
 Aşağıda tasarımın şematik, PCB ve 3D modelleme aşamalarını görebilirsiniz:
 
-| Schematic Design | PCB Layout | 3D Render |
-| :---: | :---: | :---: |
-| ![Schematic](./PawsLink_IoT_sch_png.png) | ![PCB](./PawsLink_IoT_pcb_png.png) | ![3D Render](./PawsLink_IoT_3d_png.png) |
+![Schematic](./PawsLink_IoT_sch_png.png)
+![PCB](./PawsLink_IoT_pcb_png.png)
+![3D Render](./PawsLink_IoT_3d_png.png)
 
 ## 🐱 Neden PawsLink?
 Kedim, balkona çıkmak istediğinde kapının önünde kendine has bir frekansta seslenerek beni göreve çağırıyor. **PawsLink**, bu işitsel sinyalleri (miyavlamaları) algılayıp mekanik bir kolu tetikleyen, böylece kedime kendi özgürlüğünü sunan akıllı bir sistemdir.
