@@ -2,12 +2,23 @@
 
 Selam! Bu proje, evin asıl sahibi olan kedimin balkon kapısında mahsur kalma krizlerine (ve benim her seferinde bir "kapı görevlisi" edasıyla yerimden kalkmama) son vermek için geliştirildi. Başta küçük bir can sıkıntısı gibi görünse de, süreç içinde evrim geçirerek tam kapsamlı bir **Embedded System & IoT** projesine dönüştü.
 
-## 📸 Proje Görselleri
-Aşağıda tasarımın şematik, PCB ve 3D modelleme aşamalarını görebilirsiniz:
+## 📸 Tasarım Süreci ve Görseller
 
-| Schematic Design | PCB Layout | 3D Render |
-| :---: | :---: | :---: |
-| ![Schematic](./PawsLink%20IoT_sch_png.png) | ![PCB](./PawsLink%20IoT_pcb_png.png) | ![3D Render](./PawsLink%20IoT_3d_png.png) |
+### 🎨 Şematik Tasarım
+Projenin elektriksel bağlantıları ve ESP32 entegrasyonu:
+![Schematic Design](./PawsLink%20IoT_sch_png.png)
+
+---
+
+### 🛣️ PCB Layout
+Hassas sinyal yolları ve RF performansını korumak için tasarlanan Anten Keep-out bölgesi:
+![PCB Layout](./PawsLink%20IoT_pcb_png.png)
+
+---
+
+### 🧊 3D Modelleme
+Üretim sonrası kartın fiziksel görünümü ve komponent yerleşimi:
+![3D Render](./PawsLink%20IoT_3d_png.png)
 
 ## 🐱 Neden PawsLink?
 Kedim, balkona çıkmak istediğinde kapının önünde kendine has bir frekansta seslenerek beni göreve çağırıyor. **PawsLink**, bu işitsel sinyalleri (miyavlamaları) algılayıp mekanik bir kolu tetikleyen, böylece kedime kendi özgürlüğünü sunan akıllı bir sistemdir.
