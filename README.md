@@ -10,7 +10,7 @@ Aşağıda tasarımın şematik, PCB ve 3D modelleme aşamalarını görebilirsi
 | ![Schematic](./PawsLink_IoT_sch_png.png) | ![PCB](./PawsLink_IoT_pcb_png.png) | ![3D Render](./PawsLink_IoT_3d_png.png) |
 
 ## 🐱 Neden PawsLink?
-Kedim, balkona çıkmak istediğinde kapının önünde kendine has bir frekansta seslenerek beni göreve çağırıyor. **PawsLink**, bu işitsel sinyalleri (meyaklamaları) algılayıp mekanik bir kolu tetikleyen, böylece kedime kendi özgürlüğünü sunan akıllı bir sistemdir.
+Kedim, balkona çıkmak istediğinde kapının önünde kendine has bir frekansta seslenerek beni göreve çağırıyor. **PawsLink**, bu işitsel sinyalleri (miyavlamaları) algılayıp mekanik bir kolu tetikleyen, böylece kedime kendi özgürlüğünü sunan akıllı bir sistemdir.
 
 ## 🛠 Teknik Gelişim & Mühendislik Detayları
 Proje başlangıçta **ATmega** tabanlıydı; ancak hem performansını artırmak hem de modern bağlantı özelliklerinden (Wi-Fi/Bluetooth) faydalanmak amacıyla mimariyi **ESP32**’ye taşıdım. Tasarımda dikkat ettiğim bazı kritik teknik noktalar:
