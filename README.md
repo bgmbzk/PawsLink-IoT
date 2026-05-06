@@ -58,4 +58,30 @@ Sistem kararlılığını ve motor performansını artırmak için yapılan iyil
 
 ---
 
-**Not:** Bu proje yapılırken hiçbir kedi mahsur bırakılmamıştır. Aksine, artık evin kapıları onun kontrolü altında! 🐈‍⬛🚀
+## 🚀 Son Güncellemeler (Mayıs 2026)
+
+Bu donanım revizyonu, güvenlik önlemlerine odaklanmakta ve sistemi akıllı yazılım entegrasyonuna hazırlamaktadır. Proje, kapı hareketi sırasında kedi güvenliğini sağlamak için proaktif önlemler içerecek şekilde geliştirilmiştir.
+
+### Donanım v1.2 İyileştirmeleri
+*   **Akıllı Engel Algılama**: HuskyLens entegrasyonu için özel bir 4-pinli konnektör (**J4**) eklendi. Bu sayede, mekanizma çalışmadan önce yapay zeka destekli algılama ile kedinin kapı eşiğinde olup olmadığı kontrol edilebilecektir.
+*   **Görsel Durum LED'i**: Sistem durumunu ve olası engelleri gerçek zamanlı olarak bildirmek için yeni bir gösterge LED'i eklendi.
+*   **Güç Kararlılığı**: ESP32 ve motor sürücüsünün yük altında kararlı çalışması için PCB yolları, net atamaları (USB-C pin eşleme düzeltmeleri dahil) ve bakır alanlar optimize edildi.
+*   **Üretime Hazır Düzen**: Fiziksel PCB üretimine hazırlık amacıyla tasarım kuralı hataları (DRC) ve açıklık (clearance) ihlalleri giderildi.
+
+### Güncel Proje Görselleri
+
+#### Yeni Şematik Tasarımı
+![Şematik](PawsLink_IoT_v1.2_sch.png)
+
+#### Yeni PCB Tasarımı
+![PCB](PawsLink_IoT_v1.2_pcb.png)
+
+#### 3D Donanım Modeli
+![3D Render](PawsLink_IoT_v1.2_3d.png)
+
+---
+*Not: Bu donanım versiyonu, bir sonraki aşama olan ESP32 yazılım geliştirme süreci için tamamen hazır durumdadır.*
+
+**Not2:** Bu proje yapılırken hiçbir kedi mahsur bırakılmamıştır. Aksine, artık evin kapıları onun kontrolü altında! 🐈‍⬛🚀
+
+
