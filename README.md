@@ -53,7 +53,7 @@ Sistem kararlılığını ve motor performansını artırmak için yapılan iyil
 ### 🚀 Nasıl Çalışır?
 1. PCB sipariş edilir ve bileşenler lehimlenir.
 2. ESP32 yazılımı yüklenir.
-3. Kedinin "meyak" frekansı kalibre edilir.
+3. Kedinin "miyav" frekansı kalibre edilir.
 4. Koltuğa yaslanılır ve kedinin kendi kapısını açışı izlenir. ✨
 
 ---
