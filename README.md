@@ -89,7 +89,7 @@ Projenin yazılımı ESP32 üzerinde C++ (Arduino) kullanılarak geliştirilmiş
 * **Enerji Tasarrufu:** DRV8833 motor sürücüsü, işlem yapılmadığı anlarda `SLEEP` moduna alınarak güç tüketimi minimize edilir.
 ---
 
-*Not: Bu donanım versiyonu, bir sonraki aşama olan ESP32 yazılım geliştirme süreci için tamamen hazır durumdadır.*
+*Not: Bu donanım versiyonu ile eşzamanlı geliştirilen ESP32 yazılımı güncellenmelere açıktır. *
 
 **Not2:** Bu proje yapılırken hiçbir kedi mahsur bırakılmamıştır. Aksine, artık evin kapıları onun kontrolü altında! 🐈‍⬛🚀
 
