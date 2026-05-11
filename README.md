@@ -79,7 +79,16 @@ Bu donanım revizyonu, güvenlik önlemlerine odaklanmakta ve sistemi akıllı y
 #### 3D Donanım Modeli
 ![3D Render](PawsLink_IoT_v1.2_3d.png)
 
+## 💻 Yazılım Özellikleri (Firmware)
+
+Projenin yazılımı ESP32 üzerinde C++ (Arduino) kullanılarak geliştirilmiştir. Temel çalışma mantığı şu şekildedir:
+
+* **Tetikleme:** LM358 amfi devresi üzerinden gelen analog ses verisiyle kedinin miyavlaması algılanır.
+* **Güvenlik:** HuskyLens AI kamera, I2C üzerinden ESP32 ile haberleşerek kedinin kapı eşiğinde olup olmadığını denetler.
+* **Akıllı Döngü:** Kapı sadece miyavlama duyulduğunda açılır ve kedi eşikten tamamen ayrıldığında (HuskyLens onayıyla) güvenli bir şekilde kapanır.
+* **Enerji Tasarrufu:** DRV8833 motor sürücüsü, işlem yapılmadığı anlarda `SLEEP` moduna alınarak güç tüketimi minimize edilir.
 ---
+
 *Not: Bu donanım versiyonu, bir sonraki aşama olan ESP32 yazılım geliştirme süreci için tamamen hazır durumdadır.*
 
 **Not2:** Bu proje yapılırken hiçbir kedi mahsur bırakılmamıştır. Aksine, artık evin kapıları onun kontrolü altında! 🐈‍⬛🚀
